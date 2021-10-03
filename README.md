@@ -1,2 +1,21 @@
-# Filler
-The Filler in laravel
+Для проекта нужны:
+
+PHP_8.0
+MySQL-8.0-Win10
+Apache_2.4-PHP_8.0
+
+Чтобы запустить проект нужно выполнить комманду: 
+composer install
+
+Затем настройте env файл 
+
+После этого выполнить комманды:
+
+php artisan key:generate
+php artisan db:seed
+
+ссылки для самой игры:
+"Ваш домен"/create_game
+
+
+ps. Я не знаю как работать с докером, и код не покрыт тестами))
